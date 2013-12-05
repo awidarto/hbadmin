@@ -1,6 +1,6 @@
 <?php
 
 return array(
-    'design'=>'Developed by KickstartLab',
-    'name'=>'Investors Alliance'
+    'design'=>'Developed by CGI',
+    'name'=>'HealthBox'
     );

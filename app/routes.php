@@ -11,18 +11,21 @@
 |
 */
 Route::controller('document', 'DocumentController');
-Route::controller('property', 'PropertyController');
 Route::controller('user', 'UserController');
-Route::controller('agent', 'AgentController');
-Route::controller('buyer', 'BuyerController');
+
+Route::controller('reservation', 'ReservationController');
+Route::controller('hospital', 'HospitalController');
+Route::controller('patient', 'PatientController');
+Route::controller('doctor', 'DoctorController');
+Route::controller('schedule', 'ScheduleController');
+
 Route::controller('report', 'ReportController');
+
+/* Mini CMS */
 Route::controller('pages', 'PagesController');
 Route::controller('posts', 'PostsController');
 Route::controller('category', 'CategoryController');
 Route::controller('menu', 'MenuController');
-
-Route::controller('music', 'MusicController');
-
 
 Route::controller('upload', 'UploadController');
 Route::controller('ajax', 'AjaxController');
